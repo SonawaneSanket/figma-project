@@ -1,0 +1,484 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Luxurious+Script&family=Outfit&display=swap");
+.container {
+  padding: 0%;
+  margin: 0%;
+  background-image: url("back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* Added to move the buttons to the right */
+  background-color: #33333300;
+  padding: 10px 20px;
+  padding-top: 2%;
+  position: sticky;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  position: sticky;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.btn1 {
+  background-color: transparent;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.btn2 {
+  display: flex;
+  padding: 28px 45px 29px 45px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.buttons button {
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #33333300;
+  padding: 15px 20px;
+  margin-left: 50px;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav-header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-header nav ul li {
+  margin-right: 20px;
+}
+
+.nav-header nav ul li:last-child {
+  margin-right: 0;
+}
+
+.nav-header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 10px;
+}
+
+.nav-header .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  z-index: 1;
+}
+
+.nav-header .dropdown-content li {
+  padding: 10px;
+}
+
+.nav-header .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.contact-item {
+  align-items: center;
+  color: #ccaa60;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contact-details {
+  color: #fff;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  padding-right: 60px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.contact-symbol {
+  margin: 0 5px;
+  font-size: 20px;
+}
+.content-heading {
+  color: #fff;
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%;
+}
+
+.content-svg {
+  justify-content: center;
+  align-items: center;
+  margin-left: 47%;
+}
+
+.container-two {
+  background-color: #3a4553;
+}
+
+.image-container {
+  padding-top: 10%;
+  position: relative;
+  margin-left: 0%;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #1f2732;
+}
+
+.overlay img {
+  width: 100px; /* Adjust the size of the logo */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.overlay h2 {
+  color: #1f2732;
+  font-family: Cormorant Garamond;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%;
+}
+
+.overlay p {
+  color: #1f2732;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  margin-left: -30%;
+}
+.plans {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+}
+
+.container-three {
+  background-color: #3a4553;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+
+.heading-three {
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%;
+  padding-bottom: 5%;
+}
+.plan {
+  flex: 1;
+  background-color: #1f2732;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0 20px;
+  text-align: center;
+}
+.plan h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%;
+}
+.price {
+  color: #d1b06b;
+  font-family: Outfit;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.plan h3 {
+  color: #d1b06b;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.price h4 {
+  display: flex;
+  padding: 6px 29px 7px 29px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #1f2732;
+}
+.price-p {
+  color: #d7d7d7;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 178.5%;
+}
+
+.btn-three {
+  display: flex;
+  padding: 28px 119px 29px 119px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #d1b06b;
+  margin-left: 1%;
+  margin-top: 10%;
+  background-color: #d1b06b;
+  color: #fff;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.container-four {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #fff;
+  padding-top: 7%;
+}
+
+.container-four h1 {
+  margin-left: 32%;
+  color: #1f2732;
+  font-family: Cormorant Garamond;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%;
+}
+
+.container-four img {
+  margin-left: 45%;
+  padding-bottom: 3%;
+  padding-top: 2%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 30px;
+  border: none;
+}
+.td-four p {
+  color: #1f2732;
+  font-family: Cormorant Garamond;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%;
+}
+
+.td-four h3 {
+  color: #909090;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+
+.container-four h2 {
+  padding-top: 3%;
+  color: #161d27;
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%; /* 51.57px */
+}
+.container-four h3 {
+  color: #909090;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+
+.container-four button {
+  display: flex;
+  padding: 28px 88px 29px 88px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #d1b06b;
+  margin-left: 40%;
+  margin-top: 5%;
+  color: #1f2732;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 10%;
+}
+
+.container-five {
+  background-color: #161d27;
+  padding: 0 50px 0 50px;
+}
+.footer-head {
+  background-color: #161d27;
+}
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  display: inline-block;
+  position: relative;
+}
+
+.logo img {
+  max-width: 350px;
+  height: auto;
+}
+
+.line {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  border-top: 1px solid #000;
+}
+
+.line.top {
+  transform: translateY(-50%);
+}
+
+.line.bottom {
+  transform: translateY(50%);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  flex-basis: 23%; /* Adjust this value as needed */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.contact {
+  flex-basis: 23%; /* Adjust this value as needed */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.column ul {
+  list-style: none; /* Remove bullet points from the list */
+  padding: 0;
+}
+
+.contact p {
+  margin: 0; /* Reset margin for paragraphs */
+}
+.footer-h2 {
+  color: #fff;
+  font-family: Cormorant Garamond;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%;
+}
+.footer-link {
+  color: #d7d7d7;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%; /* 40px */
+}

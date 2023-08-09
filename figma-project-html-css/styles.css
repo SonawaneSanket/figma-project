@@ -1,0 +1,499 @@
+/* Your previous styles here */
+
+/* New styles for the second header section */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Luxurious+Script&family=Outfit&display=swap");
+.container {
+  padding: 0%;
+  margin: 0%;
+  background-image: url("backgrnd.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* Added to move the buttons to the right */
+  background-color: #33333300;
+  padding: 10px 20px;
+  padding-top: 2%;
+  position: sticky;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  position: sticky;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.btn1 {
+  background-color: transparent;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.btn2 {
+  display: flex;
+  padding: 28px 45px 29px 45px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.buttons button {
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #33333300;
+  padding: 15px 20px;
+  margin-left: 50px;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav-header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-header nav ul li {
+  margin-right: 20px;
+}
+
+.nav-header nav ul li:last-child {
+  margin-right: 0;
+}
+
+.nav-header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 10px;
+}
+
+.nav-header .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  z-index: 1;
+}
+
+.nav-header .dropdown-content li {
+  padding: 10px;
+}
+
+.nav-header .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.contact-item {
+  align-items: center;
+  margin-right: 20px;
+  color: #ccaa60;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+ 
+}
+
+.contact-details {
+  color: #fff;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+}
+.contact-symbol {
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+.content {
+  margin-top: 10%;
+  margin-left: 18%;
+  color: #fff;
+}
+
+.content-heading {
+  color: #fff;
+  font-family: Cormorant Garamond;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%;
+}
+
+.content-para {
+  color: #ccaa60;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.content-btn {
+  display: flex;
+  padding: 28px 82px 29px 82px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #d1b06b;
+  color: #1f2732;
+  cursor: pointer;
+  color: #1f2732;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.container-two {
+  display: flex;
+  background-color: #1f2732;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.images-column {
+  flex: 1;
+}
+
+.images-column img {
+  width: 100%;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 300px;
+  margin-top: 10%;
+  padding: 0%;
+  margin-left: 25%;
+}
+
+.text-column {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.text-column-para {
+  color: #fff;
+  font-family: Cormorant Garamond;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%;
+  margin-top: 9%;
+  margin-right: 16%;
+}
+
+.text-col-para {
+  color: #d7d7d7;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+.para-img {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #13181f;
+}
+.para-span-text {
+  color: #fff;
+  font-family: Luxurious Script;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  display: flex;
+  margin-left: 20%;
+  margin-top: -10%;
+}
+
+.para-svg {
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+.para-svg-text {
+  color: #fff;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 94.6%;
+  margin-left: 15%;
+  margin-top: -7%;
+  display: flex;
+}
+.para-svg-text-2 {
+  color: #fff;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 94.6%;
+  display: flex;
+  margin-left: 15%;
+  margin-top: -1%;
+}
+.para-svg-2 {
+  display: flex;
+  margin-left: 50%;
+  margin-top: -8%;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%;
+}
+
+.para-span-text-2 {
+  display: flex;
+  margin-left: 62%;
+  margin-top: -6%;
+  color: #d1b06b;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 94.6%;
+}
+
+.container-three {
+  flex-wrap: wrap;
+  padding: 10%;
+  background-color: #161d27;
+  height: 100vh;
+  justify-content: space-between;
+  display: flex;
+}
+.head-three {
+  color: #fff;
+  font-family: Cormorant Garamond;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%;
+}
+.title-three {
+  text-align: right;
+  display: flex;
+  margin-bottom: 6%;
+  margin-left: 50%;
+  margin-top: -10%;
+  color: #d7d7d7;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.card {
+  width: 29%;
+  padding: 21px;
+  border: 1px solid #ccc;
+  background-color: #1f2732;
+  margin-bottom: 20px;
+}
+
+.btn-card {
+  margin-left: 55%;
+  background-color: #161d27;
+  color: #fff;
+}
+.card-title {
+  color: #fff;
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%;
+}
+
+.card-paragraph {
+  color: #d7d7d7;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.btn-card {
+  display: flex;
+  padding: 15px 45px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: -12%;
+  cursor: pointer;
+}
+
+.card-icon {
+  margin-top: 4%;
+  margin-left: 2%;
+}
+.container-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+.title-four-head {
+  margin-top: 20%;
+  color: #161d27;
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%;
+}
+.paragraph-four-head {
+  color: #909090;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.container-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 -10px; /* To create negative margins for spacing */
+}
+
+.content-box-four,
+.image-box-four {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  margin: 0 10px; /* To create spacing between items */
+}
+
+.icon,
+.icon-four {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.text,
+.text-four {
+  color: #161d27;
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.paragraph,
+.paragraph-four {
+  color: #909090;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.image-four {
+  max-width: 50%;
+  height: auto;
+}
+.text-four-count {
+  color: #af3333;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114.6%;
+}
+.client-section-two {
+  text-align: center;
+  padding: 30px;
+}
+
+.client-title {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #161d27;
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%;
+}
+
+.client-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.client-logo {
+  max-width: 100px;
+  height: auto;
+}
